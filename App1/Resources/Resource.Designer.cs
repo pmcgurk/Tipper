@@ -61,19 +61,19 @@ namespace App1
 		{
 			
 			// aapt resource value: 0x7f050003
-			public const int CalculateButton = 2131034115;
-			
-			// aapt resource value: 0x7f050002
-			public const int billamount = 2131034114;
+			public const int SeekTipAmount = 2131034115;
 			
 			// aapt resource value: 0x7f050000
-			public const int linearLayout2 = 2131034112;
+			public const int billamount = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int linearLayout1 = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int seekBar1 = 2131034114;
 			
 			// aapt resource value: 0x7f050004
 			public const int tipamount = 2131034116;
-			
-			// aapt resource value: 0x7f050001
-			public const int tippercentage = 2131034113;
 			
 			// aapt resource value: 0x7f050005
 			public const int totalamount = 2131034117;
@@ -114,7 +114,7 @@ namespace App1
 			public const int Calculate = 2130968576;
 			
 			// aapt resource value: 0x7f040002
-			public const int billamounttip = 2130968578;
+			public const int billamount = 2130968578;
 			
 			// aapt resource value: 0x7f040003
 			public const int tippercentage = 2130968579;
