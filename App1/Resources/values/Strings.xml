@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Calculate">Calculate</string>
+    <string name="ApplicationName">Tip Calculator</string>
+  <string name="billamounttip">Total Bill Amount</string>
+  <string name="tippercentage">Tip Percentage</string>
+</resources>
