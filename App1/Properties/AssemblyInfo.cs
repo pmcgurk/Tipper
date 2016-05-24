@@ -6,11 +6,11 @@ using Android.App;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Tip Calculator")]
+[assembly: AssemblyTitle("Tipper")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Tip Calculator")]
+[assembly: AssemblyProduct("Tipper")]
 [assembly: AssemblyCopyright("Copyright © Paul McGurk 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -8,7 +8,7 @@ using Android.OS;
 
 namespace App1
 {
-    [Activity(Label = "Tip Calculator", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Tipper", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
         double tipPercentage = 0;
