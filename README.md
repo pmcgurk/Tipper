@@ -9,7 +9,7 @@ Provide a lightweight, no-nonsense way of calculating tips and share of bills.
 Tipper is implemented in Xamarin.Android in C#, and XML.
 
 # Screenshots
-![Screenshot](https://lh3.googleusercontent.com/HBqoIJH_G25ZWEG_P3HxhFRafT2B9i5TD_gliAvnBkercZgVU5nWCXKxc0wvwLc48LU=h400) ![Screenshot](https://lh3.googleusercontent.com/HBqoIJH_G25ZWEG_P3HxhFRafT2B9i5TD_gliAvnBkercZgVU5nWCXKxc0wvwLc48LU=h400)
+![Screenshot](https://lh3.googleusercontent.com/HBqoIJH_G25ZWEG_P3HxhFRafT2B9i5TD_gliAvnBkercZgVU5nWCXKxc0wvwLc48LU=h400) ![Screenshot](https://lh3.googleusercontent.com/P79owXterKfd6Hy3KN4RNw3QgSKQ9RwCzxy-sTeerhon7PwIqqvw42w6egLbPLVtKFY=h400)
 
 # Download
 Available to download here: https://play.google.com/store/apps/details?id=co.mcgurk.tipper
