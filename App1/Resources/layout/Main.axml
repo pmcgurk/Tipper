@@ -7,42 +7,148 @@
     android:minWidth="25px"
     android:minHeight="25px"
     tools:actionBarNavMode="tabs"
-    android:padding="20dp">
-    <EditText
-        android:id="@+id/billamount"
-        android:hint="@string/billamount"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        TextChanged="eventhandler" />
+    android:padding="30dp"
+    android:gravity="top">
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayout1"
-        android:padding="30dp">
-        <SeekBar
-            android:id="@+id/seekBar1"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="9"
-            ProgressChanged="eventhandler" />
-        <TextView
-            android:text="99%"
-            android:id="@+id/SeekTipAmount"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
+        android:id="@+id/linearLayout4"
+        android:background="@drawable/layout_bg"
+        android:padding="25dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:layout_gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+            <ImageView
+                android:src="@drawable/square_inc_cash"
+                android:id="@+id/imageView1"
+                android:tint="@color/accent"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="15dp"
+                android:paddingLeft="10dp" />
+            <EditText
+                android:id="@+id/billamount"
+                TextChanged="eventhandler"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:digits=".0123456789"
+                android:layout_weight="5"
+                android:hint="@string/billamount"
+                android:text="0.00"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:theme="@style/AppTheme" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:layout_gravity="center">
+            <TextView
+                android:text="+10%"
+                android:id="@+id/SeekTipAmount"
+                android:layout_height="match_parent"
+                android:layout_width="0px"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/accent"
+                android:layout_weight="1" />
+            <SeekBar
+                android:id="@+id/seekBar1"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                ProgressChanged="eventhandler"
+                android:progress="10"
+                android:layout_width="0px"
+                android:progressTint="#b4b4b4ff"
+                android:secondaryProgressTint="#7fffd4ff"
+                android:indeterminateTint="#00ffffff"
+                android:progressBackgroundTint="#b4b4b4ff" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/linearLayout2"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_bg">
+            <ImageView
+                android:src="@drawable/face"
+                android:id="@+id/imageView1"
+                android:tint="@color/accent"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="15dp"
+                android:paddingLeft="10dp" />
+            <EditText
+                android:id="@+id/splitamount"
+                TextChanged="eventhandler"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:digits="123456789"
+                android:hint="@string/splitamount"
+                android:text="1"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:theme="@style/AppTheme"
+                android:layout_weight="1" />
+        </LinearLayout>
     </LinearLayout>
-    <TextView
-        android:text="Text"
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tipamount" />
-    <TextView
-        android:text="Text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/totalamount" />
+        android:id="@+id/linearLayout3"
+        android:background="@drawable/layout_bg"
+        android:padding="15dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:text="Tip: $0.00 (10%)"
+            android:id="@+id/tipamount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:textColor="@color/accent" />
+        <TextView
+            android:text="Total: $0.00"
+            android:id="@+id/totalamount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/accent"
+            android:paddingBottom="10dp" />
+        <TextView
+            android:text="Split: $0.00 (1)"
+            android:id="@+id/splittotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/accent" />
+    </LinearLayout>
 </LinearLayout>

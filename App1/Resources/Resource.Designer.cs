@@ -41,11 +41,45 @@ namespace App1
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f060002
+			public const int accent = 2131099650;
+			
+			// aapt resource value: 0x7f060000
+			public const int primary = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int primary_dark = 2131099649;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int face = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int Icon = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int layout_bg = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int percent = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int square_inc_cash = 2130837508;
 			
 			static Drawable()
 			{
@@ -60,23 +94,41 @@ namespace App1
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050003
-			public const int SeekTipAmount = 2131034115;
+			// aapt resource value: 0x7f070005
+			public const int SeekTipAmount = 2131165189;
 			
-			// aapt resource value: 0x7f050000
-			public const int billamount = 2131034112;
+			// aapt resource value: 0x7f070003
+			public const int billamount = 2131165187;
 			
-			// aapt resource value: 0x7f050001
-			public const int linearLayout1 = 2131034113;
+			// aapt resource value: 0x7f070002
+			public const int imageView1 = 2131165186;
 			
-			// aapt resource value: 0x7f050002
-			public const int seekBar1 = 2131034114;
+			// aapt resource value: 0x7f070004
+			public const int linearLayout1 = 2131165188;
 			
-			// aapt resource value: 0x7f050004
-			public const int tipamount = 2131034116;
+			// aapt resource value: 0x7f070001
+			public const int linearLayout2 = 2131165185;
 			
-			// aapt resource value: 0x7f050005
-			public const int totalamount = 2131034117;
+			// aapt resource value: 0x7f070008
+			public const int linearLayout3 = 2131165192;
+			
+			// aapt resource value: 0x7f070000
+			public const int linearLayout4 = 2131165184;
+			
+			// aapt resource value: 0x7f070006
+			public const int seekBar1 = 2131165190;
+			
+			// aapt resource value: 0x7f070007
+			public const int splitamount = 2131165191;
+			
+			// aapt resource value: 0x7f07000b
+			public const int splittotal = 2131165195;
+			
+			// aapt resource value: 0x7f070009
+			public const int tipamount = 2131165193;
+			
+			// aapt resource value: 0x7f07000a
+			public const int totalamount = 2131165194;
 			
 			static Id()
 			{
@@ -113,8 +165,17 @@ namespace App1
 			// aapt resource value: 0x7f040000
 			public const int Calculate = 2130968576;
 			
+			// aapt resource value: 0x7f040005
+			public const int appname = 2130968581;
+			
 			// aapt resource value: 0x7f040002
 			public const int billamount = 2130968578;
+			
+			// aapt resource value: 0x7f040006
+			public const int splitamount = 2130968582;
+			
+			// aapt resource value: 0x7f040004
+			public const int tip = 2130968580;
 			
 			// aapt resource value: 0x7f040003
 			public const int tippercentage = 2130968579;
@@ -125,6 +186,22 @@ namespace App1
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int AppTheme = 2131034112;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}

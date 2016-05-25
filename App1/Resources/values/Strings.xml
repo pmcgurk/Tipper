@@ -2,6 +2,9 @@
 <resources>
     <string name="Calculate">Calculate</string>
     <string name="ApplicationName">Tip Calculator</string>
-    <string name="billamount">Total Bill Amount</string>
+    <string name="billamount">Bill Total</string>
     <string name="tippercentage">Tip Percentage</string>
+    <string name="tip">Tip</string>
+    <string name="appname">Tipper</string>
+    <string name="splitamount">Split Between</string>
 </resources>
